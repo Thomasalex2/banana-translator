@@ -10,7 +10,7 @@
     border: 2px solid;
     border-radius:0.5rem;
     max-width: 50rem;
-    min-width: 20rem;
+    min-width: 15rem;
 }
 
 #output-box {
@@ -21,7 +21,7 @@
     padding: 2rem;
     border-radius:0.5rem;
     max-width: 50rem;
-    min-width: 20rem;
+    min-width: 15rem;
 }
 
 #click-btn {
