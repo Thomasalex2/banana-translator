@@ -14,7 +14,7 @@ function urlConstructor(msg) {
 }
 
 function errorHandler(error) {
-    log("An error has occured")
+    log("An error has occurred")
     alert("Server is down. Please try again later")
 }
 
