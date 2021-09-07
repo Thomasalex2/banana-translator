@@ -1,4 +1,3 @@
-log("Hello")
 var click_btn = document.querySelector("#click-btn");
 var text_area = document.querySelector("#txt-area");
 var output_box = document.querySelector("#output-box");
@@ -17,8 +16,6 @@ function errorHandler(error) {
     log("An error has occurred")
     alert("Server is down. Please try again later")
 }
-
-log(text_area)
 
 function buttonClickFunc() {
     log("Clicked");

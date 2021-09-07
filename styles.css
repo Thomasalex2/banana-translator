@@ -11,6 +11,7 @@
     border-radius:0.5rem;
     max-width: 50rem;
     min-width: 15rem;
+    outline:none;
 }
 
 #output-box {
