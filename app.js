@@ -4,13 +4,8 @@ var output_box = document.querySelector("#output-box");
 
 var url = "https://api.funtranslations.com/translate/minion.json"
 
-function log(msg) {
-    console.log(msg);
-};
-
-function urlConstructor(msg) {
-    return url + "?text=" + msg;
-}
+let log = msg => console.log(msg);
+let urlConstructor = msg => url + "?text=" + msg;
 
 function errorHandler(error) {
     log("An error has occurred")
